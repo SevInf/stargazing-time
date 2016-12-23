@@ -61,7 +61,7 @@ fields:
 The time interval considered good if:
 
 1. It is night (doh!) 
-2. Cloudiness is less then 30%
+2. Cloudiness is less than 30%
 
 ## License
 
