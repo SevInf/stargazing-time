@@ -1,0 +1,44 @@
+{
+  "name": "stargazing-time",
+  "version": "1.0.0",
+  "description": "Library that tells you the best time for stargazing in the next 5 days",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul test _mocha",
+    "lint": "standard",
+    "precommit": "npm run lint"
+  },
+  "keywords": [
+    "weather",
+    "astronomy",
+    "stargazing",
+    "openweathermap"
+  ],
+  "author": "Sergey Tatarintsev <sergey@tatarintsev.me> (https://github.com/SevInf)",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^1.6.3",
+    "suncalc": "^1.7.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "chai-datetime": "^1.4.1",
+    "husky": "^0.12.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "nock": "^9.0.2",
+    "standard": "^8.6.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SevInf/stargazing-time.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SevInf/stargazing-time/issues"
+  },
+  "homepage": "https://github.com/SevInf/stargazing-time#readme"
+}
