@@ -1,5 +1,8 @@
 # stargazing-time
 
+[![Build Status](https://travis-ci.org/SevInf/stargazing-time.svg?branch=master)](https://travis-ci.org/SevInf/stargazing-time)
+[![codecov](https://codecov.io/gh/SevInf/stargazing-time/branch/master/graph/badge.svg)](https://codecov.io/gh/SevInf/stargazing-time)
+
 Library that tells you the best time for stargazing in the next 5 days using
 [OpenWeatherMap](http://openweathermap.org).
 
